@@ -2,7 +2,7 @@ import os
 import sys
 import argparse
 from subprocess import Popen, PIPE, STDOUT
-from pipes import quote as shell_quote
+from shlex import quote as shell_quote
 
 from ... import uis
 from ...plugins import PapersPlugin

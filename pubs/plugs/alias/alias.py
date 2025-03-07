@@ -1,7 +1,7 @@
 import shlex
 import subprocess
 import argparse
-from pipes import quote as shell_quote
+from shlex import quote as shell_quote
 
 from ...plugins import PapersPlugin
 from ...pubs_cmd import execute
